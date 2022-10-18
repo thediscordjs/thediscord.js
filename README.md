@@ -6,7 +6,7 @@ A Node.js wrapper for interfacing with Discord.
 Installing
 ----------
 
-You will need NodeJS 10.4+. If you need voice support you will also need Python 2.7 and a C++ compiler. Refer to [the Getting Started section of the docs](https://github.io) for more details.
+You will need NodeJS 10.4+. If you need voice support you will also need Python 2.7 and a C++ compiler. Refer to [the Getting Started section of the docs](https://thediscordjs.github.io/thediscord.js/) for more details.
 
 ```
 npm install --no-optional thediscord.js
