@@ -1,6 +1,6 @@
 {
-  "name": "thediscord",
-  "version": "0.0.1",
+  "name": "thediscord.js",
+  "version": "0.0.2",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
   "exports": {
