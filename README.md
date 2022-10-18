@@ -1,4 +1,4 @@
-Eris [![NPM version](https://img.shields.io/npm/v/thediscord.js.svg?style=flat-square&color=informational)](https://npmjs.com/package/eris)
+The Discord [![NPM version](https://img.shields.io/npm/v/thediscord.js.svg?style=flat-square&color=informational)](https://npmjs.com/package/eris)
 ====
 
 A Node.js wrapper for interfacing with Discord.
