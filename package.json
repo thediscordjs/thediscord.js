@@ -1,5 +1,5 @@
 {
-  "name": "@thediscordjs/thediscord.js",
+  "name": "thediscord.js",
   "version": "0.0.1",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
