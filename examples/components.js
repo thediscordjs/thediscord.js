@@ -1,9 +1,9 @@
-const Eris = require("eris");
+const TheDiscord = require("thediscord.js");
 
-const Constants = Eris.Constants;
+const Constants = TheDiscord.Constants;
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris("BOT TOKEN", {
+const bot = new TheDiscord("BOT TOKEN", {
     intents: ["guildMessages"]
 });
 
@@ -71,7 +71,7 @@ bot.on("messageCreate", (msg) => { // When a message is created
 });
 
 bot.on("interactionCreate", (interaction) => {
-    if(interaction instanceof Eris.ComponentInteraction) {
+    if(interaction instanceof TheDiscord.ComponentInteraction) {
         return interaction.createMessage({
             content: "Interaction Recieved",
             flags: 64

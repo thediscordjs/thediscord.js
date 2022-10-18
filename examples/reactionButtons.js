@@ -1,8 +1,8 @@
-const Eris = require("eris");
+const TheDiscord = require("thediscord.js");
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris.CommandClient("Bot TOKEN", {}, {
-    description: "A test bot made with Eris",
+const bot = new TheDiscord.CommandClient("Bot TOKEN", {}, {
+    description: "A test bot made with TheDiscord",
     owner: "somebody",
     prefix: "!"
 });

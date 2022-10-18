@@ -1,7 +1,7 @@
-const Eris = require("eris");
+const TheDiscord = require("thediscord.js");
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris("Bot TOKEN", {
+const bot = new TheDiscord("Bot TOKEN", {
     intents: [
         "guilds",
         "guildMessages"

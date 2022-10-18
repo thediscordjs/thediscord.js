@@ -1,7 +1,7 @@
-import Eris from "./index.js";
+import TheDiscord from "./index.js";
 
 export default function(token, options) {
-  return new Eris.Client(token, options);
+  return new TheDiscord.Client(token, options);
 }
 
 export const {
@@ -60,4 +60,4 @@ export const {
   VoiceConnection,
   VoiceConnectionManager,
   VoiceState
-} = Eris;
+} = TheDiscord;

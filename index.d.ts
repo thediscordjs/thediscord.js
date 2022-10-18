@@ -7,9 +7,9 @@ import { URL } from "url";
 import { Socket as DgramSocket } from "dgram";
 import * as WebSocket from "ws";
 
-declare function Eris(token: string, options?: Eris.ClientOptions): Eris.Client;
+declare function TheDiscord(token: string, options?: TheDiscord.ClientOptions): TheDiscord.Client;
 
-declare namespace Eris {
+declare namespace TheDiscord {
   export const Constants: Constants;
   export const VERSION: string;
 
@@ -3119,8 +3119,9 @@ declare namespace Eris {
     constructor(data: BaseData, guild?: Guild, client?: Client);
     addRole(roleID: string, reason?: string): Promise<void>;
     ban(deleteMessageDays?: number, reason?: string): Promise<void>;
-    edit(options: MemberOptions, reason?: string): Promise<void>;
     dynamicAvatarURL(format?: ImageFormat, size?: number): string;
+    edit(options: MemberOptions, reason?: string): Promise<void>;
+
     kick(reason?: string): Promise<void>;
     removeRole(roleID: string, reason?: string): Promise<void>;
     unban(reason?: string): Promise<void>;
@@ -3721,4 +3722,4 @@ declare namespace Eris {
   }
 }
 
-export = Eris;
+export = TheDiscord;
